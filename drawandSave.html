@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Draw and save</title>
+	<style>
+		#canvas {
+			border: 1px solid #ddd;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="canvas" width="800" height="600"></canvas>
+	<div class="dashboard">
+		<input type="color" name="penColor" value="#000000" id="myColor">
+		<input type="range" name="penWidth" min="1" nax="10" step="2" value="5" id="myWidth">
+		<button id="saveBtn">Save</button>
+	</div>
+	<img src="" alt="" id="myImage">
+	<script src="saver.js"></script>
+</body>
+</html>
